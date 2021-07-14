@@ -1,0 +1,70 @@
+#Defualts
+export EDITOR="nvim"
+export TERMINAL="terminator"
+export BROWSER="brave"
+source ~/.config/zsh/.zprofile
+export TERM="xterm-256color"
+
+#Keyboard Controls
+bindkey -v
+zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}'
+
+#Plugins & Prompts
+##source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh 
+source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh  
+source ~/.config/zsh/autojump.plugin.zsh       
+PROMPT='%F{cyan}%1~%f [%F{cyan}%f %F{red}%f %F{range}%f %F{blue}%f]> '
+#PROMPT='%F{cyan}%1~%f [%F{cyan}%f %F{red}%f %F{range}%f %F{blue}%f ]> '
+#PROMPT='%F{cyan}%1~%f [%F{cyan}%f %F{red}%f %F{range}%f %F{blue}%f %F{red}%f %F{green}%f ]> '
+
+autoload -Uz vcs_info
+precmd_vcs_info() { vcs_info }
+precmd_functions+=( precmd_vcs_info )
+setopt prompt_subst
+RPROMPT=\$vcs_info_msg_0_
+zstyle ':vcs_info:git:*' formats '%F{orange}(%b)%r%f'
+zstyle ':vcs_info:*' enable git
+
+#Save yourself and use vim 
+alias nano="nvim"
+alias gedit="nvim"
+alias leafpad="nvim"
+alias vim="nvim"
+alias kate="nvim"
+alias vi="nvim"
+alias geany="nvim"
+alias v="vim"
+alias edit="nvim"
+alias zshrc="nvim ~/.config/zsh/.zshrc"
+
+#Alias
+alias ls="ls --color=auto"
+alias ll="ls --color=auto -l"
+alias g="git clone"
+alias t="ttyper"
+alias top="gotop"
+alias d="doas"
+alias file="ranger"
+alias mdisk="doas fdisk -l | sed -e '/Disk \/dev\/loop/,+5d'"
+alias plex/vpn="ssh manu@192.168.2.35"
+alias rpi= "ssh pi@raspberrypi"
+alias nw="nitrogen --random --set-zoom-fill '/home/manu/Personal/Pictures/Wallpaper Collection/'"
+alias e="exit"
+alias rm="rm -rf"
+alias la="ls -all"
+alias up="doas pacman -Syyu | echo updating system"
+alias e="exit"
+alias depression="sudo rm -rf --no-preserve-root" 
+alias c="flameshot gui"
+alias s="startx"
+
+#History
+HISTSIZE=25000
+SAVEHIST=25000
+HISTFILE=~/.config/zsh/history
+
+#Flex on Windows, Ubuntu, and Fedora users
+pfetch
+
+##Startup with ZSH
+#echo "Hello"
