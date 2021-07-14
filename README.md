@@ -1,6 +1,6 @@
 # My dotfiles
 
-  ## Use [Stow](https://www.gnu.org/software/stow/) for my dotfiles
+  ## Just move whatever you want to your .config
   ### Enjoy!!
   
   
