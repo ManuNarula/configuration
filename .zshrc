@@ -49,7 +49,8 @@ alias file="ranger"
 alias mdisk="doas fdisk -l | sed -e '/Disk \/dev\/loop/,+5d'"
 alias plex/vpn="ssh manu@192.168.2.35"
 alias rpi= "ssh pi@raspberrypi"
-alias nw="nitrogen --random --set-zoom-fill '/home/manu/Personal/Pictures/Wallpaper Collection/'"
+alias nw="nitrogen --random --set-zoom-fill '/usr/share/backgrounds/Wallpaper Collection'"
+alias nr="nitrogen --restore"
 alias e="exit"
 alias rm="rm -rf"
 alias la="ls -all"
@@ -65,7 +66,8 @@ SAVEHIST=25000
 HISTFILE=~/.config/zsh/history
 
 #Flex on Windows, Ubuntu, and Fedora users
-pfetch
+nerdfetch
 
 ##Startup with ZSH
 #echo "Hello"
+time
