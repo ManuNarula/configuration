@@ -14,6 +14,7 @@ zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}'
 source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh  
 source ~/.config/zsh/autojump.plugin.zsh       
 PROMPT='%F{cyan}%1~%f [%F{cyan}%f %F{red}%f %F{range}%f %F{blue}%f]> '
+#PROMPT='[%F{cyan}%1~%f][%F{cyan}%f %F{red}%f %F{range}%f %F{blue}%f]  '
 #PROMPT='%F{cyan}%1~%f [%F{cyan}%f %F{red}%f %F{range}%f %F{blue}%f ]> '
 #PROMPT='%F{cyan}%1~%f [%F{cyan}%f %F{red}%f %F{range}%f %F{blue}%f %F{red}%f %F{green}%f ]> '
 
