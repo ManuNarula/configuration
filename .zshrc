@@ -15,6 +15,7 @@ PROMPT='%F{cyan}%1~%f [%F{cyan}%f %F{red}%f %F{range}%f %F{blue}%f]>
 #PROMPT='[%F{cyan}%1~%f][%F{cyan}%f %F{red}%f %F{range}%f %F{blue}%f]  '
 #PROMPT='%F{cyan}%1~%f [%F{cyan}%f %F{red}%f %F{range}%f %F{blue}%f ]> '
 #PROMPT='%F{cyan}%1~%f [%F{cyan}%f %F{red}%f %F{range}%f %F{blue}%f %F{red}%f %F{green}%f ]> '
+#PROMPT='%F{cyan}%2~%f %F{white}%f ' ##Minimal Prompt
 
 autoload -Uz vcs_info
 precmd_vcs_info() { vcs_info }
@@ -64,6 +65,7 @@ SAVEHIST=25000
 HISTFILE=~/.config/zsh/history
 
 #Flex on Windows, Ubuntu, and Fedora users
+##Replace Nerdfetch with your prefered fetching software
 nerdfetch
 
 ##Startup with ZSH
