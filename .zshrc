@@ -16,6 +16,7 @@ PROMPT='%F{cyan}%1~%f [%F{cyan}%f %F{red}%f %F{range}%f %F{blue}%f]>
 #PROMPT='%F{cyan}%1~%f [%F{cyan}%f %F{red}%f %F{range}%f %F{blue}%f ]> '
 #PROMPT='%F{cyan}%1~%f [%F{cyan}%f %F{red}%f %F{range}%f %F{blue}%f %F{red}%f %F{green}%f ]> '
 #PROMPT='%F{cyan}%2~%f %F{white}%f ' ##Minimal Prompt
+#PS1='%4~ %F{red}λ%f '
 
 autoload -Uz vcs_info
 precmd_vcs_info() { vcs_info }
