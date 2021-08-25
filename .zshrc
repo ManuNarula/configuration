@@ -39,8 +39,6 @@ alias edit="nvim"
 alias zshrc="nvim ~/.config/zsh/.zshrc"
 
 #Alias
-alias ls="ls --color=auto"
-alias ll="ls --color=auto -l"
 alias g="git clone"
 alias t="ttyper"
 alias top="gotop"
@@ -57,6 +55,13 @@ alias e="exit"
 alias depression="sudo rm -rf --no-preserve-root" 
 alias c="flameshot gui"
 alias s="startx"
+alias fw="feh --bg-fill -z '/home/manu/Pictures/Wallpaper Collection' "
+alias pwd="ptpwd"
+alias mkdir="ptmkdir"
+alias touch="pttouch"
+alias ls="colorls"
+alias ll="colorls -l"
+alias suspend="doas systemctl suspend"
 
 #History
 HISTSIZE=25000
