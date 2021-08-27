@@ -16,6 +16,7 @@
     git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
     git clone https://github.com/zsh-users/zsh-autosuggestions
 
+Neovim config: https://github.com/ManuNarula/goatnvim.git
 
 BSPWM + Polybar:
 ![alt text](https://github.com/ManuNarula/dot/blob/main/2021-07-06_05-51.png?raw=true) 
