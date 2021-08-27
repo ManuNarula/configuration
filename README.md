@@ -19,5 +19,5 @@
 
 BSPWM + Polybar:
 ![alt text](https://github.com/ManuNarula/dot/blob/main/2021-07-06_05-51.png?raw=true) 
-Awesome:
+Awesome WM (Using Awesome CopyCat):
 ![alt text](https://github.com/ManuNarula/dot/blob/main/2021-08-24_19-09.png)
