@@ -7,6 +7,11 @@ export TERM="xterm-256color"
 
 #Keyboard Controls
 bindkey -v
+
+#Completion
+setopt auto_pushd
+autoload -U compinit && compinit -u
+zstyle ':completion:*' menu select
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}'
 
 #Plugins & Prompts
