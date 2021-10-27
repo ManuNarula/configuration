@@ -24,3 +24,4 @@ BSPWM + Polybar:
 Awesome WM (Using Awesome CopyCat):
 ![alt text](https://github.com/ManuNarula/configuration/blob/main/2021-09-09_13-53.png)
 ![alt text](https://github.com/ManuNarula/configuration/blob/main/2021-08-27_16-36.png)
+![alt text](https://github.com/ManuNarula/configuration/blob/main/2021-10-27_12-22.png)
