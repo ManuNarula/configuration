@@ -1,6 +1,6 @@
 # My dotfiles
 
-  ## Just move whatever you want to your .config
+  ## Just move whatever you want to your $HOME/.config
   ### Enjoy!!
   
 Neovim config: https://github.com/ManuNarula/goatnvim.git
