@@ -1,13 +1,13 @@
 # My dotfiles
 
   ## Just move whatever you want to your $HOME/.config
-  ### Enjoy!!
+  ### Enjoy!!😆
 
 Neovim config: https://github.com/ManuNarula/goatnvim.git
 
 Wallpaper Repo: https://github.com/ManuNarula/Wallpapers.git 
   
-### Dependancies
+### Dependancies:
 > picom nitrogen git bspwm dmenu polybar sxhkd ranger lxappernace xorg xorg-xinit xorg-setxkbmap zsh feh colorls nerdfetch 
 
 ### ZSH Config:
