@@ -3,8 +3,6 @@
   ## Just move whatever you want to your $HOME/.config
   ### Enjoy!!😆
 
-Neovim config: https://github.com/ManuNarula/goatnvim.git
-
 Wallpaper Repo: https://github.com/ManuNarula/Wallpapers.git 
   
 ### Dependancies:
