@@ -26,4 +26,4 @@ Awesome WM (Using Awesome CopyCat):
 ![alt text](https://github.com/ManuNarula/configuration/blob/main/2021-10-27_12-22.png)
 
 Neovim configuration: 
-![alt text](https://github.com/ManuNarula/configuration/blob/main/alacritty_5IjXhroHuz.png)
+![alt text](https://github.com/ManuNarula/configuration/blob/main/avfOlHCjOI.png)
