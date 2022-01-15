@@ -18,4 +18,4 @@ Wallpaper Repo: https://github.com/ManuNarula/Wallpapers.git
 
 
 
-## [Screenshots](showcase.md)
+## [View Screenshots](showcase.md)
