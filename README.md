@@ -18,4 +18,4 @@ Wallpaper Repo: https://github.com/ManuNarula/Wallpapers.git
 
 
 
-## [View Screenshots](showcase.md)
+## [Rice Showcase](showcase.md)
