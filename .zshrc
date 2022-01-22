@@ -82,6 +82,7 @@ alias touch="pttouch"
 alias ls="colorls"
 alias ll="colorls -l"
 alias suspend="doas systemctl suspend"
+alias ns="xset -dpms ; xset s off ; xset s noblank"
 
 #History
 HISTSIZE=25000
