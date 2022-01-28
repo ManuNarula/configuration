@@ -4,6 +4,7 @@ export TERMINAL="terminator"
 export BROWSER="brave"
 source ~/.config/zsh/.zprofile
 export TERM="xterm-256color"
+export PATH="$HOME/.scripts:$PATH"
 
 #Keyboard Controls
 bindkey -v
@@ -46,27 +47,16 @@ zstyle ':vcs_info:git*+set-message:*' hooks git-untracked
 zstyle ':vcs_info:*' check-for-changes true
 zstyle ':vcs_info:git:*' formats " %{$fg[blue]%}(%{$fg[red]%}%m%u%c%{$fg[yellow]%}%{$fg[magenta]%} %b%{$fg[blue]%})"
 
-#Save yourself and use vim 
-alias nano="nvim"
-alias gedit="nvim"
-alias leafpad="nvim"
-alias vim="nvim"
-alias kate="nvim"
-alias vi="nvim"
-alias geany="nvim"
+
 alias v="vim"
-alias edit="nvim"
-alias zshrc="nvim ~/.config/zsh/.zshrc"
+alias nv="nvim"
 
 #Alias
 alias g="git clone"
 alias t="ttyper"
 alias top="gotop"
 alias d="doas"
-alias file="ranger"
-alias mdisk="doas fdisk -l | sed -e '/Disk \/dev\/loop/,+5d'"
-alias nw="nitrogen --random --set-zoom-fill '/usr/share/backgrounds/Wallpaper Collection'"
-alias nr="nitrogen --restore"
+alias mdisk="sudo fdisk -l | sed -e '/Disk \/dev\/loop/,+5d'"
 alias e="exit"
 alias rm="rm -rf"
 alias la="ls -all"
@@ -74,14 +64,10 @@ alias e="exit"
 alias depression="sudo rm -rf --no-preserve-root" 
 alias c="flameshot gui"
 alias s="startx"
-alias fw="feh --bg-fill -z '/home/manu/Pictures/Wallpaper Collection' "
-alias pwd="ptpwd"
-alias mkdir="ptmkdir"
-alias touch="pttouch"
-alias ls="colorls"
-alias ll="colorls -l"
-alias suspend="doas systemctl suspend"
 alias ns="xset -dpms ; xset s off ; xset s noblank"
+alias fch='cd $(fd --type d --hidden --exclude .mozilla | fzf)'
+alias fc='cd $(fd --type d --exclude png | fzf)'
+alias mf='free -h | awk '/^Mem:/ {print $3 "/" $2}''
 
 #History
 HISTSIZE=25000
