@@ -68,16 +68,21 @@ alias ns="xset -dpms ; xset s off ; xset s noblank"
 alias fch='cd $(fd --type d --hidden --exclude .mozilla | fzf)'
 alias fc='cd $(fd --type d --exclude png | fzf)'
 alias mf='free -h | awk '/^Mem:/ {print $3 "/" $2}''
+#alias ls='ls --color=auto'
+alias ls='lsd'
+alias fvi='vim -c FZF'
+alias fnv='nvim -c :FZF'
+alias fvi='vim -c :FZF'
+alias scl='cd ~/school'
+alias sc11='cd ~/school/Gr11'
+alias zde="devour zathura"
+alias mde="devour mpv"
+alias upd="doas pacman -Syyu ; npm update ; npm upgrade ; cargo update "
+alias zpf='filepath=$(fzf -q .pdf); zathura $filepath'
+alias dpf='filepath=$(fzf -q .doc); zathura $filepath'
+alias zdf='filepath=$(fzf -q .pdf); devour zathura $filepath'
 
 #History
 HISTSIZE=25000
 SAVEHIST=25000
 HISTFILE=~/.config/zsh/history
-
-#Flex on Windows, Ubuntu, and Fedora users
-##Replace Nerdfetch with your prefered fetching software
-nerdfetch
-
-##Startup with ZSH
-#echo "Hello"
-time
