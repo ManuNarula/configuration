@@ -6,7 +6,7 @@
 Wallpaper Repo: https://github.com/ManuNarula/Wallpapers.git 
   
 ### Dependancies:
-> picom nitrogen git bspwm dmenu polybar sxhkd ranger lxappernace xorg xorg-xinit xorg-setxkbmap zsh feh colorls nerdfetch 
+> picom git bspwm dmenu polybar sxhkd ranger lxappernace xorg xorg-xinit xorg-setxkbmap zsh feh colorls nerdfetch 
 
 ### ZSH Config:
     
