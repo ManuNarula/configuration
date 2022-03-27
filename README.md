@@ -15,7 +15,7 @@ Wallpaper Repo: https://github.com/ManuNarula/Wallpapers.git
     git clone https://github.com/zsh-users/zsh-syntax-highlighting.git  $HOME/.config/zsh/zsh-syntax-highlighting
     git clone https://github.com/zsh-users/zsh-autosuggestions  $HOME/.config/zsh/zsh-autosuggestions
 
+### Awesome Rice: 
+![alt text](https://github.com/ManuNarula/configuration/blob/main/showcase/2022-03-16_21-22.png)
 
-
-
-## [Rice Showcase](showcase.md)
+### [More screenshots!](showcase.md)
